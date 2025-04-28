@@ -1,0 +1,73 @@
+{
+    "info": {
+        "name": "Book API Collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Add Book",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"title\": \"Cien a\\u00f1os de soledad\",\n    \"author\": \"Gabriel Garc\\u00eda M\\u00e1rquez\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:8080/api/books",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "books"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get All Books",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/books",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "books"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Book by ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8080/api/books/1",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8080",
+                    "path": [
+                        "api",
+                        "books",
+                        "1"
+                    ]
+                }
+            }
+        }
+    ]
+}
