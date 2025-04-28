@@ -1,9 +1,3 @@
-
-¡Se me reseteó el entorno! 😅  
-Pero tranqui, aquí te paso el **README.md** igual:
-
----
-
 # 📚 API REST - Gestión de Libros
 
 ## Descripción
@@ -58,5 +52,3 @@ API RESTful para gestionar una colección de libros utilizando Spring Boot. Incl
 3. Acceder a `http://localhost:8080/api/books` para usar la API.
 
 ---
-
-¿Quieres también que te arme una plantilla del **informe de trabajo grupal** que piden? 🚀 (división de tareas, retos, etc).
